@@ -1,8 +1,0 @@
-table,th,td{
-    border-style: solid;
-    border-color: black;
-    border-collapse: collapse;
-    width: 400px;
-    height: 30px;
-    text-align: center;
-}
