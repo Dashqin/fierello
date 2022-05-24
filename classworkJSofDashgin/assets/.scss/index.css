@@ -1,0 +1,493 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.container {
+  height: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .nav-bar h1 {
+  font-family: montserrat,sans-serif;
+  letter-spacing: 5px;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.container .nav-bar h1 span {
+  color: #ff5050;
+}
+
+.container ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-left: 35%;
+}
+
+.container ul li {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.container ul .drop-down1 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down1 .drop-down-content1 {
+  position: absolute;
+  z-index: 100;
+  padding: 85px 50px 15px 10px;
+  margin-left: -37px;
+  padding-left: 70%;
+  min-width: 232px;
+  display: none;
+  background-color: white;
+}
+
+.container ul .drop-down1 .drop-down-content1 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 7%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down1:hover .drop-down-content1 {
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  display: block;
+}
+
+.container ul .drop-down2 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down2 .drop-down-content2 {
+  position: absolute;
+  z-index: 100;
+  padding: 85px 50px 15px 10px;
+  margin-left: -37px;
+  padding-left: 70%;
+  min-width: 232px;
+  display: none;
+  background-color: white;
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.container ul .drop-down2 .drop-down-content2 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 7%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down2:hover .drop-down-content2 {
+  display: block;
+  -webkit-transition: height 5s;
+  transition: height 5s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.container ul .drop-down3 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down3 .drop-down-content3 {
+  position: absolute;
+  z-index: 100;
+  padding: 85px 50px 45px 10px;
+  margin-left: -630px;
+  padding-left: 55px;
+  min-width: 1122px;
+  display: none;
+  background-color: white;
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.container ul .drop-down3 .drop-down-content3 h2 {
+  font-size: 25px;
+  color: #272727;
+}
+
+.container ul .drop-down3 .drop-down-content3 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-top: 14%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down3 .drop-down-content3 div {
+  float: left;
+  margin-right: 10%;
+}
+
+.container ul .drop-down3 li {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.container ul .drop-down3:hover .drop-down-content3 {
+  display: block;
+  -webkit-transition: all 2s ease-in;
+  transition: all 2s ease-in;
+}
+
+.container ul .drop-down4 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down4 .drop-down-content4 {
+  position: absolute;
+  z-index: 100;
+  padding: 65px 50px 15px 30px;
+  margin-left: -37px;
+  min-width: 232px;
+  display: none;
+  background-color: white;
+  -webkit-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+
+.container ul .drop-down4 .drop-down-content4 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 9%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down4 .drop-down-content4 div {
+  display: inline-block;
+}
+
+.container ul .drop-down4 li {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.container ul .drop-down4:hover .drop-down-content4 {
+  display: block;
+  -webkit-transition: height 5s;
+  transition: height 5s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.container ul .drop-down5 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down5 .drop-down-content5 {
+  position: absolute;
+  z-index: 100;
+  padding: 85px 50px 15px 10px;
+  margin-left: -37px;
+  padding-left: 70%;
+  min-width: 232px;
+  display: none;
+  background-color: white;
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.container ul .drop-down5 .drop-down-content5 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down5 .drop-down-content5 div {
+  display: inline-block;
+}
+
+.container ul .drop-down5 li {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.container ul .drop-down5:hover .drop-down-content5 {
+  display: block;
+  -webkit-transition: height 5s;
+  transition: height 5s;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.container ul .drop-down6 {
+  position: relative;
+  margin-left: 10%;
+}
+
+.container ul .drop-down6 .drop-down-content6 {
+  position: absolute;
+  z-index: 100;
+  padding: 65px 0px 15px 35px;
+  margin-left: -37px;
+  min-width: 212px;
+  display: none;
+  background-color: white;
+  -webkit-transition: height 5s ease;
+  transition: height 5s ease;
+}
+
+.container ul .drop-down6 .drop-down-content6 a {
+  color: rgba(83, 83, 83, 0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8%;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.container ul .drop-down6 .drop-down-content6 div {
+  display: inline-block;
+}
+
+.container ul .drop-down6 li {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.container ul .drop-down6:hover .drop-down-content6 {
+  display: block;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+header .item1 {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+}
+
+header .item2 {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+}
+
+header h2 {
+  margin-top: 110px;
+  margin-bottom: 20px;
+  margin-left: 8%;
+  font-size: 44px;
+  width: 400px;
+  font-weight: 400;
+}
+
+header h2 span {
+  color: crimson;
+}
+
+header p {
+  width: 400px;
+  margin-left: 8%;
+  margin-bottom: 5%;
+  opacity: 0.5;
+}
+
+header img {
+  margin-left: 8%;
+}
+
+header .item3 {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+}
+
+.line3 {
+  background-color: #eeeeee;
+}
+
+.line3 .container {
+  width: 100%;
+  height: 600px;
+}
+
+.line3 .container img {
+  width: 540px;
+  height: 350px;
+}
+
+.line3 .container span {
+  color: #e64444;
+}
+
+.line3 .container p {
+  width: 70%;
+}
+
+.line4 {
+  text-align: center;
+  width: 100%;
+  height: 700px;
+}
+
+.line4 .line4-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.line4 .main-text-width {
+  width: 35%;
+  margin-top: 135px;
+  margin-bottom: 50px;
+}
+
+.line4 .main-text-width h2 {
+  margin-bottom: 20px;
+}
+
+.line4 .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line4 .img-container div {
+  margin-right: 4%;
+}
+
+.line4 .img-container div h5 {
+  margin-top: 22px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.line4 .img-container div p {
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.line5 {
+  width: 100%;
+  height: 530px;
+  background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+  background-size: 150%;
+  background-position: top;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.line5 div {
+  text-align: center;
+}
+
+.line5 div h3 {
+  color: white;
+}
+
+.line5 div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.line5 div form input {
+  width: 400px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  padding-left: 4%;
+  outline: none;
+  border-style: none;
+}
+
+.line5 div form button {
+  font-size: 12px;
+  padding: 20px 50px;
+  letter-spacing: 2px;
+  background-color: #e64444;
+  color: white;
+  border-style: none;
+}
+
+.line8 {
+  width: 100%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 7%;
+  background-color: #fff8f8;
+}
+
+.line8 h6 {
+  margin-bottom: 9%;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 470;
+}
+
+.line8 a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-weight: 470;
+  letter-spacing: 1px;
+  color: rgba(56, 56, 56, 0.6);
+}
+
+.line8 a:hover {
+  color: rgba(255, 80, 80, 0.8);
+}
+/*# sourceMappingURL=index.css.map */

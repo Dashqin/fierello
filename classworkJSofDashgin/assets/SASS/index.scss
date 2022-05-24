@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+.container{
+    height: 112px;
+    display: flex;
+    align-items: center;
+    .nav-bar{
+        h1{
+            font-family: montserrat,sans-serif;
+            letter-spacing: 5px;
+            font-size: 34px;
+            font-weight: 400;
+            span{
+                color: rgb(255, 80, 80);
+            }
+        }
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-left: 35%;
+        li{
+            margin-top: 20px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+        .drop-down1{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content1{
+                position: absolute;
+                z-index: 100;
+                padding: 85px 50px 15px 10px;
+                margin-left: -37px;
+                padding-left: 70%;
+                min-width: 232px;
+                display: none;
+                background-color: white;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 7%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        .drop-down1:hover .drop-down-content1{
+            transition: all 1s ease-in;
+            display: block;
+        }
+        .drop-down2{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content2{
+                position: absolute;
+                z-index: 100;
+                padding: 85px 50px 15px 10px;
+                margin-left: -37px;
+                padding-left: 70%;
+                min-width: 232px;
+                display: none;
+                background-color: white;
+                transition: height 5s ease;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 7%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                  }
+            }
+        }
+        .drop-down2:hover .drop-down-content2{
+            display: block;
+            transition: height 5s;
+            transition-delay: 1s;
+        }
+        .drop-down3{
+            position: relative;
+            margin-left: 10%;
+            
+            .drop-down-content3{
+                
+                position: absolute;
+                z-index: 100;
+                padding: 85px 50px 45px 10px;
+                margin-left: -630px;
+                padding-left: 55px;
+                min-width: 1122px;
+                display: none;
+                // opacity: 0;
+                background-color: white;
+                transition: height 5s ease;
+                h2{
+                    font-size: 25px;
+                    color: rgba(39, 39, 39, 1);
+                }
+                a{
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-top: 14%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    }
+                div{
+                    //   display: inline-block;
+                    float: left;
+                    margin-right: 10%;
+                }
+            }
+            li{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+        .drop-down3:hover .drop-down-content3{
+            display: block;
+            transition: all 2s ease-in;
+            // opacity: 1;
+            // transform: translateY(20px);
+        }
+        .drop-down4{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content4{
+                position: absolute;
+                z-index: 100;
+                padding: 65px 50px 15px 30px;
+                margin-left: -37px;
+                min-width: 232px;
+                display: none;
+                background-color: white;
+                transition: all 1s ease-in;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 9%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                  }
+                  div{
+                      display: inline-block;
+                  }
+            }
+            li{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+        .drop-down4:hover .drop-down-content4{
+            display: block;
+            transition: height 5s;
+            transition-delay: 1s;
+        }
+        .drop-down5{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content5{
+                position: absolute;
+                z-index: 100;
+                padding: 85px 50px 15px 10px;
+                margin-left: -37px;
+                padding-left: 70%;
+                min-width: 232px;
+                display: none;
+                background-color: white;
+                transition: height 5s ease;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 8%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                  }
+                  div{
+                      display: inline-block;
+                  }
+            }
+            li{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+        .drop-down5:hover .drop-down-content5{
+            display: block;
+            transition: height 5s;
+            transition-delay: 1s;
+        }
+      
+        .drop-down6{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content6{
+                position: absolute;
+                z-index: 100;
+                padding: 65px 0px 15px 35px;
+                margin-left: -37px;
+                min-width: 212px;
+                display: none;
+                background-color: white;
+                transition: height 5s ease;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 8%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                  }
+                  div{
+                      display: inline-block;
+                  }
+            }
+            li{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+        .drop-down6:hover .drop-down-content6{
+            display: block;
+            transition: all 5s;
+        }
+    }
+}
+header{
+    // height: 500px;
+    .item1{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+    }
+    .item2{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+    }
+    h2{
+        margin-top: 110px;
+        margin-bottom: 20px;
+        margin-left: 8%;
+        font-size: 44px;
+        width: 400px;
+        font-weight: 400;
+        span{
+            color: crimson;
+        }
+    }
+    p{
+        width: 400px;
+        margin-left: 8%;
+        margin-bottom: 5%;
+        opacity: 0.5;
+    }
+    img{
+        margin-left: 8%;
+    }
+    .item3{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+    }
+}
+.line3{
+    background-color: rgb(238, 238, 238);
+    .container{
+        width: 100%;
+        height: 600px;
+        img{
+            width: 540px;
+            height: 350px;
+        }
+        span{
+            color: rgb(230, 68, 68);
+        }
+        p{
+            width: 70%;
+        }
+    }
+}
+.line4{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    .line4-text{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main-text-width{
+        width: 35%;
+        margin-top: 135px;
+        margin-bottom: 50px;
+        h2{
+            margin-bottom: 20px;
+        }
+    }
+    .img-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        div{
+            margin-right: 4%;
+            h5{
+                margin-top: 22px;
+                font-size: 12px;
+                letter-spacing: 2px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 12px;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+.line5{
+    width: 100%;
+    height: 530px;
+    background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg);
+    background-size: 150%;
+    background-position: top;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div{
+        text-align: center;
+        h3{
+            color: white;
+        }
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            width: 600px;
+            margin-top: 30px;
+            input{
+                width: 400px;
+                letter-spacing: 1px;
+                font-size: 13px;
+                padding-left: 4%;
+                outline: none;
+                border-style: none;
+            }
+            button{
+                font-size: 12px;
+                padding: 20px 50px;
+                letter-spacing: 2px;
+                background-color: rgb(230, 68, 68);
+                color: white;
+                border-style: none;
+            }
+        }
+    }
+}
+.line8{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding-left: 7%;
+    background-color: rgb(255, 248, 248);
+    h6{
+        margin-bottom: 9%;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 470;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        margin-bottom: 7px;
+        font-size: 12px;
+        font-weight: 470;
+        letter-spacing: 1px;
+        color: rgba(56, 56, 56, 0.6);
+    }
+    a:hover{
+        color: rgba(255, 80, 80, 0.8);
+    }
+}
