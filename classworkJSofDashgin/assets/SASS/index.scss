@@ -229,48 +229,48 @@
     }
 }
 header{
-    // min-height: 100px;
-    // .item1{
-    //     width: 100%;
-    //     height: 500px;
-    //     background-size: cover;
-    //     background-position: center;
-    //     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
-    // }
-    // .item2{
-    //     width: 100%;
-    //     height: 500px;
-    //     background-size: cover;
-    //     background-position: center;
-    //     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
-    // }
-    // h2{
-    //     margin-top: 110px;
-    //     margin-bottom: 20px;
-    //     margin-left: 8%;
-    //     font-size: 44px;
-    //     width: 400px;
-    //     font-weight: 400;
-    //     span{
-    //         color: crimson;
-    //     }
-    // }
-    // p{
-    //     width: 400px;
-    //     margin-left: 8%;
-    //     margin-bottom: 5%;
-    //     opacity: 0.5;
-    // }
-    // img{
-    //     // margin-left: 8%;
-    // }
-    // .item3{
-    //     width: 100%;
-    //     height: 500px;
-    //     background-size: cover;
-    //     background-position: center;
-    //     background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
-    // }
+    min-height: 950px;
+    .item1{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background.jpg);
+    }
+    .item2{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-2.jpg);
+    }
+    h2{
+        margin-top: 110px;
+        margin-bottom: 20px;
+        margin-left: 8%;
+        font-size: 44px;
+        width: 400px;
+        font-weight: 400;
+        span{
+            color: crimson;
+        }
+    }
+    p{
+        width: 400px;
+        margin-left: 8%;
+        margin-bottom: 5%;
+        opacity: 0.5;
+    }
+    img{
+        margin-left: 8%;
+    }
+    .item3{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-slider-background-3.jpg);
+    }
 }
 .line2{
     width: 100%;
@@ -285,7 +285,7 @@ header{
                     padding: 10px;
                 }
                 #filter{
-                    margin-left: 71%;
+                    margin-left: 76%;
                     justify-content: end;
                 }
             }
@@ -293,12 +293,30 @@ header{
         .products{
             display: flex;
             flex-wrap: wrap;
-            div{
-                width: 250px;
-                height: 300px;
-                margin-left: 5%;
+            .img-border{
+                width: 270px;
+                height: 370px;
+                margin-left: 3%;
                 margin-bottom: 5%;
-                background-color: turquoise;
+                overflow: hidden;
+                div{
+                    overflow: hidden;
+                }
+                img{
+                    width: 270px;
+                    height: 340px;
+                    overflow: hidden;
+                }
+                img:hover{
+                    transform: scale(1.03);
+                }
+                p{
+                    text-align: center;
+                    opacity: 0.9;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    margin-top: 10px;
+                }
             }
         }
     }
@@ -308,18 +326,37 @@ header{
     .container{
         width: 100%;
         height: 650px;
-        img{
-            width: 100%;
-            height: 100%;
+        .img-border{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            img:hover{
+                transform: scale(1.03);
+            }
+        }
+        .line3-subtext{
+            margin-left: 9%;
+            margin-top: 7%;
+            h2{
+                font-size: 40px;
+                font-weight: 400;
+                margin-bottom: 5%;
+            }
+            p{
+                display: inline-block !important;
+                opacity: 0.8;
+                width: 80%;
+            }
         }
         h2{
             
         }
         span{
             color: rgb(230, 68, 68);
-        }
-        p{
-            width: 70%;
         }
     }
 }
@@ -397,6 +434,9 @@ header{
             }
         }
     }
+}
+.line6{
+    text-align: center;
 }
 .line8{
     width: 100%;
